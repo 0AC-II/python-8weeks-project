@@ -1,0 +1,42 @@
+# To-Do List App (V1)
+
+tasks = [] # list to hold tasks
+running = True
+
+print("\nWelcome to your To_Do List App!")
+
+while running: # loop until running becomes false
+    print("\nChoose an option:")
+    print("1. Add a task")
+    print("2. View tasks")
+    print("3. Exit")
+
+# Get user input
+    choice = input("Enter your choice (1/2/3): ")
+
+# Add a task
+    if choice == "1":
+        task = input("Enter the task: ")
+        tasks.append(task)
+        print("Task added!")
+        # If user enters "1", we ask for a task. 
+        # # append() adds that task into the list tasks.
+    
+# View tasks
+# If user chooses "2", we display all tasks
+    elif choice == "2":
+        print("\n Your tasks:")
+        if not tasks:
+            print("No tasks yet.") # If the list is empty
+        else:
+            for index, value in enumerate(tasks, start=1):
+                print(f"{index}. {value}") # Print each task with its index
+
+# Exit the app
+    elif choice == "3":
+        running = False
+        print("Exiting the app. Goodbye!")
+
+# Handle invalid input
+    else:
+        print("Invalid choice. Please try again.")
