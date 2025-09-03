@@ -4,7 +4,7 @@
 
 The **To-Do List App (V1)** is a simple Python console application that allows users to **add**, **view**, and **manage** tasks. It is built entirely using Python basics such as **loops, lists, conditionals, and user input**.
 
-This is the **first version (V1)** — it focuses on core functionality while keeping the code beginner-friendly and easy to understand.
+This is the **first version (V1)**, it focuses on core functionality while keeping the code beginner-friendly and easy to understand.
 
 ---
 
