@@ -21,20 +21,40 @@ It’s designed as a lab-style mini-project to practice **algorithmic thinking**
 
 ---
 
+## How to Run
+
+Run the main file:
+```
+python main.py
+```
+
+Follow the interactive menu:
+
+Choose search, sort, or recursion
+
+Provide input when prompted
+
+Get results instantly 
+
 ## Example
-Welcome to Search & Sort Lab!
-1. Search
-2. Sort
-3. Recursion
-4. Exit
-Enter your choice: 1
+### Sorting
+Enter numbers (comma-separated): 9,5,2,8,1
 
---- Search Menu ---
-1. Linear Search
-2. Binary Search
-Enter choice: 2
-Enter sorted list (comma-separated): 1,2,3,4,5,6,7
-Enter target number: 5
-Found at position 4
+Choose sorting method: 2
 
+Sorted: [1, 2, 5, 8, 9]
+
+### Factorial
+Choose recursion example: 1
+
+Enter n: 5
+
+Factorial(5) = 120
+
+---
+## Future Improvements
+- Add Merge Sort and Insertion Sort
+- Compare algorithm runtimes 
+- Expand recursive toolbox
+---
 Author: Anthony Okeibuno
