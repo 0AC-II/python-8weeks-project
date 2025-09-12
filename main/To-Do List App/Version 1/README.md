@@ -8,7 +8,7 @@ This is the **first version (V1)**, it focuses on core functionality while keepi
 
 ---
 
-## ⚙️ Features
+## Features
 
 * **Add a task** – Users can type in new tasks and save them in the list.
 * **View tasks** – Displays all saved tasks with numbering.
